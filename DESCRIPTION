@@ -1,17 +1,15 @@
 Package: leaflet.extras
 Type: Package
 Title: Extra Functionality for 'leaflet' Package
-Version: 2.0.1.9000
+Version: 2.0.2.0000
 Authors@R: c(
-      person("Sebastian", "Gatscha", email = "sebastian_gatscha@gmx.at", role = c("aut", "cre")),
+      person("Sebastian", "Gatscha", email = "sebastian_gatscha@gmx.at", role = c("aut")),
+      person("Sebastien", "Plutniak", email = "sebastien.plutniak@posteo.net", role = c("cre"), comment = "Package maintainance"),
       person("Bhaskar", "Karambelkar", email = "bhaskarvk@gmail.com", role = c("aut")),
       person("Barret", "Schloerke", email = "barret@rstudio.com", role = c("aut")),
-      person("Bangyou", "Zheng", email= "Bangyou.Zheng@csiro.au", role = c("ctb"),
-        comment = "Leaflet-search and Leaflet-GPS plugin integration"),
-      person("Robin", "Cura", email= "robin@cura.info", role = c("ctb"),
-        comment = "Fixes for Draw Options"),
-      person("Markus", "Voge", email= "markus.voge@ea-aw.de", role = c("ctb"),
-        comment = "Enhancements for Draw Options"),
+      person("Bangyou", "Zheng", email= "Bangyou.Zheng@csiro.au", role = c("ctb"), comment = "Leaflet-search and Leaflet-GPS plugin integration"),
+      person("Robin", "Cura", email= "robin@cura.info", role = c("ctb"), comment = "Fixes for Draw Options"),
+      person("Markus", "Voge", email= "markus.voge@ea-aw.de", role = c("ctb"), comment = "Enhancements for Draw Options"),
       person("Markus", "Dumke", role = c("ctb"), comment = "Bounce Marker addition"),
       person(family = "Mapbox", role = c("ctb", "cph"), comment = "leaflet-omnivore, csv2geojson, and togeojson libraries"),
       person("Henry", "Thasler", role = c("ctb", "cph"), comment = "Leaflet.Geodesic library"),
@@ -56,7 +54,7 @@ Suggests:
     sf,
     xfun,
     testthat (>= 3.0.0)
-URL: https://github.com/trafficonese/leaflet.extras, https://trafficonese.github.io/leaflet.extras/
-BugReports: https://github.com/trafficonese/leaflet.extras/issues
-RoxygenNote: 7.3.2
+URL: https://github.com/sebastien-plutniak/leaflet.extras, 
+BugReports: https://github.com/sebastien-plutniak/leaflet.extrasissues
+RoxygenNote: 7.3.3
 Config/testthat/edition: 3

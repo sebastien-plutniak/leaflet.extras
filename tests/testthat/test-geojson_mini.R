@@ -1,7 +1,7 @@
 ## DATA ###################
-fName <- "https://rawgit.com/TrantorM/leaflet-choropleth/gh-pages/examples/basic_topo/crimes_by_district.topojson"
+fName <- "https://raw.githubusercontent.com/TrantorM/leaflet-choropleth/refs/heads/gh-pages/examples/basic_topo/crimes_by_district.topojson"
 topoJson <- readr::read_file(fName)
-geosonpointurl <- "https://rawgit.com/benbalter/dc-maps/master/maps/historic-landmarks-points.geojson"
+geosonpointurl <- "https://raw.githubusercontent.com/benbalter/dc-maps/refs/heads/master/maps/historic-landmarks-points.geojson"
 geoJson <- readr::read_file(geosonpointurl)
 
 historicLandmark <- makeAwesomeIcon(icon = "flag", library = "ion", markerColor = "green", iconColor = "black")
